@@ -2,6 +2,7 @@ const http = require('http');
 const url = require('url');
 const fs = require('fs');
 
+
 http.createServer((req,res) =>{
     const q = url.parse(req.url, true);
     let filename = "." + q.pathname;
