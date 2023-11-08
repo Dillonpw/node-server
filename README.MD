@@ -1,0 +1,1 @@
+Basic multipage website using a basic node server to direct from page to page, also sends a bsic error if any unrecognized path is taken.
